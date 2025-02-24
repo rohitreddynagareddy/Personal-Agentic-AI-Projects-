@@ -17,7 +17,7 @@ from langgraph.graph.message import add_messages
 load_dotenv()
 
 # Set Groq API key
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your actual Groq API key
+os.environ["GROQ_API_KEY"] = "g"  # Replace with your actual Groq API key
 
 # Initialize the Groq model
 model = ChatGroq(model="mixtral-8x7b-32768", temperature=0.7)
